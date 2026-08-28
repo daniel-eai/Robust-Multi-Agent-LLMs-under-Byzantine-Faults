@@ -1,8 +1,10 @@
 # Robust Multi-Agent LLMs under Byzantine Faults
 
-Official implementation of **Robust Multi-Agent LLMs under Byzantine Faults**.
+Official implementation of **Robust Multi-Agent LLMs under Byzantine Faults (EMNLP 2026 Main)**.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2605.09076-b31b1b.svg)](https://arxiv.org/abs/2605.09076)
+
+<img width="100%" alt="Image" src="https://github.com/user-attachments/assets/6b39c474-f4e3-49d8-bac1-cf2fd15b1db4" />
 
 ## Overview
 
