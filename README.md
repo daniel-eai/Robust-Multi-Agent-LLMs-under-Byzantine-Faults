@@ -147,22 +147,6 @@ The result JSON contains, per question, the initial answers, the per-round
 answer snapshot of every agent, and for SAC the self-scores, retained set, and
 filtered set of every agent at every round.
 
-### Model endpoints
-
-Model names and endpoints are read from the environment, matching the base
-framework:
-
-```bash
-export STRONG_MODELS=qwen3-4b
-export WEAK_MODELS=qwen2.5-1.5b-instruct
-export STRONG_API_BASE_URL=http://127.0.0.1:8002/v1
-export WEAK_API_BASE_URL=http://127.0.0.1:8001/v1
-export API_BASE_URL=$STRONG_API_BASE_URL
-```
-
-To use the OpenAI API instead, leave the base URLs unset and pass OpenAI model
-names to `--strong-model` / `--weak-model`.
-
 ### Full sweeps
 
 The paper uses Qwen3-4B as the strong model and Qwen2.5-1.5B-Instruct as the
