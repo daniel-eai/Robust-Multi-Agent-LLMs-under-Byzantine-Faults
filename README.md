@@ -8,6 +8,8 @@ Official implementation of **Robust Multi-Agent LLMs under Byzantine Faults**.
 
 Large Language Model Multi-Agent Systems (LLM-MAS) can benefit from collaboration among multiple agents, but their communication also introduces vulnerabilities when some agents are faulty or adversarial.
 
+![Image](https://github.com/user-attachments/assets/1e957726-2787-42d9-8967-306f4c444ae1)
+
 We propose **Self-Anchored Consensus (SAC)**, a fully decentralized filter-and-refine protocol designed to make LLM multi-agent systems robust against Byzantine agents. Our framework connects Byzantine-resilient consensus theory with LLM-based multi-agent collaboration and establishes **\((F+1)\)-robustness** as a sufficient graph condition for containing Byzantine influence.
 
 ## Acknowledgements
