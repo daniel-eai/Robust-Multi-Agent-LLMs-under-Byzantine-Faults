@@ -10,7 +10,7 @@ Large Language Model Multi-Agent Systems (LLM-MAS) can benefit from collaboratio
 
 ![Image](https://github.com/user-attachments/assets/1e957726-2787-42d9-8967-306f4c444ae1)
 
-We propose **Self-Anchored Consensus (SAC)**, a fully decentralized filter-and-refine protocol designed to make LLM multi-agent systems robust against Byzantine agents. Our framework connects Byzantine-resilient consensus theory with LLM-based multi-agent collaboration and establishes **\((F+1)\)-robustness** as a sufficient graph condition for containing Byzantine influence.
+We propose **Self-Anchored Consensus (SAC)**, a fully decentralized filter-and-refine protocol designed to make LLM multi-agent systems robust against Byzantine agents. bridges Byzantine-resilient consensus theory and LLM-based collaboration by adapting the Mean-Subsequence-Reduced (MSR) filtering principle to LLM-generated responses. In addition, we establish **\(F+1\)-robustness** as a sufficient graph condition for containing the influence of up to **F Byzantine agents**.
 
 ## Acknowledgements
 
